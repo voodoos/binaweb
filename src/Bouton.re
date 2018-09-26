@@ -18,6 +18,6 @@ let make = (~on, ~onClick, _children) => {
   ...component,
   render: self =>
     <button className=(string_of_bool(on) ++ " ui button") onClick>
-      (ReasonReact.string("CLIC"))
+      (ReasonReact.string(""))
     </button>,
 };

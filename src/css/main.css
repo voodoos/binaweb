@@ -12,9 +12,25 @@ body {
 .afficheur {
     display: inline-block;
     margin: 0 auto;
+    width: 5em;
 
     font-size: 5em;
     padding: 1em;
     border-radius: 5px;
-    background-color: aliceblue
+    background-color: aliceblue;
+
+    margin-top: 2em;
+    margin-bottom: 1em; 
+}
+
+
+.button {
+    border-radius: 43px !important;
+    width: 4em;
+    height: 4em;
+    margin:0.5em !important;
+}
+
+.true {
+    background-color: orangered !important;
 }
